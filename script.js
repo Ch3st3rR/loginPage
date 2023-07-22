@@ -23,7 +23,7 @@ submitButton.addEventListener("click", () => {
 			console.log(`User number ${i}: name: ${db[i].name} password: ${db[i].password}`); 
 			if (db[i].name == name.value && db[i].password == password.value) {
 				alert("Access granted");
-				window.location.replace("./index.html");
+				window.location.replace("./path.html");
 				return;
 			}
 		}
